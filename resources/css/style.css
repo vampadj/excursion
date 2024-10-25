@@ -1,27 +1,17 @@
-.block-level {
-    width: 120px;
-    height: 120px;
-    margin: 20px;
-    position: relative;
-    float: left;
+body {
+	background-color: #C00007;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.drop-shadow {
-    background: #9479fa;
+.header--main {
+	font-weight: normal;
+	font-size: 50px;
+	color: #FFFFFF;
 }
 
-.drop-shadow.top {
-    box-shadow: 0 -4px 2px -2px rgba(0,0,0,0.4)
+.link--cta {
+	font-size: 16px;
+	color: yellow;
 }
-
-.drop-shadow.right {
-    box-shadow: 4px 0 2px -2px rgba(0,0,0,0.4)
-}
-
-.drop-shadow.bottom {
-    box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4)
-}
-
-.drop-shadow.left {
-    box-shadow: -4px 0 2px -2px rgba(0,0,0,0.4)
-}
+	
